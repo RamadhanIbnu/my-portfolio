@@ -50,12 +50,12 @@ export default class Projects extends Component {
                             target="_blank"
                           >
                             <i className="icon-link" />
-                            Link Web
+                            Link
                           </a>
                         </span>
                         <span>
                           <a href="images/project-1.png">
-                            <i className="icon-eye" target="_blank" /> see image
+                            <i className="icon-eye" target="_blank" /> image
                           </a>
                         </span>
                         <span>
@@ -63,7 +63,7 @@ export default class Projects extends Component {
                             href="https://github.com/RamadhanIbnu/my-portfolio"
                             target="_blank"
                           >
-                            <i className="icon-code-outline" /> Source Code
+                            <i className="icon-code-outline" /> Code
                           </a>
                         </span>
                       </p>
@@ -98,12 +98,12 @@ export default class Projects extends Component {
                             target="_blank"
                           >
                             <i className="icon-link" />
-                            Link Web
+                            Link
                           </a>
                         </span>
                         <span>
                           <a href="images/project-2.png">
-                            <i className="icon-eye" target="_blank" /> see image
+                            <i className="icon-eye" target="_blank" /> image
                           </a>
                         </span>
                         <span>
@@ -111,7 +111,7 @@ export default class Projects extends Component {
                             href="https://github.com/respatik/bimbel-online-in5tancee"
                             target="_blank"
                           >
-                            <i className="icon-code-outline" /> Source Code
+                            <i className="icon-code-outline" /> Code
                           </a>
                         </span>
                       </p>
@@ -146,12 +146,12 @@ export default class Projects extends Component {
                             target="_blank"
                           >
                             <i className="icon-link" />
-                            Link Web
+                            Link
                           </a>
                         </span>
                         <span>
                           <a href="images/project-3.png">
-                            <i className="icon-eye" target="_blank" /> see image
+                            <i className="icon-eye" target="_blank" /> image
                           </a>
                         </span>
                         <span>
@@ -159,7 +159,7 @@ export default class Projects extends Component {
                             href="https://github.com/mohammedazez/Group-1-Flix"
                             target="_blank"
                           >
-                            <i className="icon-code-outline" /> Source Code
+                            <i className="icon-code-outline" /> Code
                           </a>
                         </span>
                       </p>
@@ -187,19 +187,19 @@ export default class Projects extends Component {
                             href="#"
                           >
                             <i className="icon-link" />
-                            Link Web
+                            Link
                           </a>
                         </span>
                         <span>
                           <a href="#">
-                            <i className="icon-eye" target="_blank" /> see image
+                            <i className="icon-eye" target="_blank" /> image
                           </a>
                         </span>
                         <span>
                           <a
                             href="#"
                           >
-                            <i className="icon-code-outline" /> Source Code
+                            <i className="icon-code-outline" /> Code
                           </a>
                         </span>
                       </p>
@@ -227,19 +227,19 @@ export default class Projects extends Component {
                             href="#"
                           >
                             <i className="icon-link" />
-                            Link Web
+                            Link
                           </a>
                         </span>
                         <span>
                           <a href="#">
-                            <i className="icon-eye" target="_blank" /> see image
+                            <i className="icon-eye" target="_blank" /> image
                           </a>
                         </span>
                         <span>
                           <a
                             href="#"
                           >
-                            <i className="icon-code-outline" /> Source Code
+                            <i className="icon-code-outline" /> Code
                           </a>
                         </span>
                       </p>
@@ -268,19 +268,19 @@ export default class Projects extends Component {
                             
                           >
                             <i className="icon-link" />
-                            Link Web
+                            Link
                           </a>
                         </span>
                         <span>
                           <a href="#">
-                            <i className="icon-eye" target="_blank" /> see image
+                            <i className="icon-eye" target="_blank" /> image
                           </a>
                         </span>
                         <span>
                           <a
                             href="#"
                           >
-                            <i className="icon-code-outline" /> Source Code
+                            <i className="icon-code-outline" /> Code
                           </a>
                         </span>
                       </p>

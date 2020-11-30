@@ -1,7 +1,6 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class About extends Component {
-  render() {
+const About = () => {
     return (
       <div>
         <section className="colorlib-about" data-section="about">
@@ -13,7 +12,7 @@ export default class About extends Component {
                     <div className="about-desc">
                     <span className="heading-meta">About Us</span>
                     <h2 className="colorlib-heading">Who Am I?</h2>
-                    <p>My name is Ramadhan ibnu khatamsyah, and u can call me ibnu, i'm 25 years old right now. I am a bachelor degree in Informatic engineering student from Gunadarma University.I love exploring new technologies and often amazed by the progress we as a human species have mad so far in the recent years</p>
+                    <p>My name is Ramadhan Ibnu Khatamsyah, and you can call me Ibnu. I have bachelor degree in Informatic Engineering from Gunadarma University. I love exploring new technologies and often amazed by the progress we as a human species have mad so far in the recent years</p>
                     </div>
                 </div>
                 </div>
@@ -37,7 +36,7 @@ export default class About extends Component {
                 </span>
                 <div className="desc">
                     <h3>Front-end Web Development </h3>
-                    <p>I have experience building Front-end websites using JavaScript,React,HTML,CSS,Bootstrap, and many more</p>
+                    <p>I have experience building Front-end websites using JavaScript, React, HTML, CSS, Bootstrap, Rest API</p>
                 </div>
                 </div>
             </div>
@@ -68,5 +67,7 @@ export default class About extends Component {
         </section>
       </div>
     )
-  }
+  
 }
+
+export default About;

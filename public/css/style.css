@@ -29,6 +29,7 @@ a {
   a:hover, a:active, a:focus {
     color: #2c98f0;
     outline: none;
+    cursor: pointer;
     text-decoration: none !important; }
 
 p {

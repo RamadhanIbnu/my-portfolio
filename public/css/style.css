@@ -1003,6 +1003,9 @@ body.offcanvas {
       transform: translate3d(0, 15px, 0); }
       .project .desc span a {
         color: #000; }
+      .project .desc span a:hover{
+        cursor: pointer;
+      }
     @media screen and (max-width: 768px) {
       .project .desc {
         opacity: 1;
@@ -1016,7 +1019,7 @@ body.offcanvas {
           -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0); } }
   .project:hover .desc {
-    opacity: 1; }
+    opacity: 0.85; }
     .project:hover .desc h3 {
       -webkit-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); }

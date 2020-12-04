@@ -39,6 +39,7 @@ const DATA = [
     linkImage: "images/project-4.png",
     linkCode: "https://github.com/Supreme-Spyro/Reuce-Front",
   },
+  
 ];
 // const IMAGE_SRC="https://source.unsplash.com/random";
 const LIMIT = 3;
@@ -53,7 +54,7 @@ const Projects = () => {
   const loadMore = (e) => {
     e.preventDefault();
     const newIndex = index + 3;
-    const newShowMore = newIndex < DATA.length - 1;
+    const newShowMore = index < DATA.length - 1;
     // const newList =  slice(DATA, 0, newIndex);
     setIndex(newIndex);
     setList(slice(DATA, 0, newIndex));
@@ -146,7 +147,7 @@ const Projects = () => {
                 </div>
               </div>
             ))}
-            {showMore && <button onClick={loadMore}> Load More </button>}
+            {showMore && <button onClick={loadMore} style={{marginLeft:470}}> Load More </button>}
             {/* <div
                 className="col-md-4 animate-box"
                 data-animate-effect="fadeInLeft"

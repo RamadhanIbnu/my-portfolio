@@ -39,33 +39,6 @@ const DATA = [
     linkImage: "images/project-4.png",
     linkCode: "https://github.com/Supreme-Spyro/Reuce-Front",
   },
-  {
-    name: "Group-1-Flix",
-    description:
-      "This website has the theme of movie streaming, I with my team created this website using references from the GoFlix web, and using vanilla javascript and vanilla css, I work in the Responsive Web Design section with media queries as a point break on a certain screen width",
-    image: "url(images/project-3.png)",
-    linkPorto: "https://group-1-flix.netlify.app/",
-    linkImage: "images/project-3.png",
-    linkCode: "https://github.com/mohammedazez/Group-1-Flix",
-  },
-  {
-    name: "Group-1-Flix",
-    description:
-      "This website has the theme of movie streaming, I with my team created this website using references from the GoFlix web, and using vanilla javascript and vanilla css, I work in the Responsive Web Design section with media queries as a point break on a certain screen width",
-    image: "url(images/project-3.png)",
-    linkPorto: "https://group-1-flix.netlify.app/",
-    linkImage: "images/project-3.png",
-    linkCode: "https://github.com/mohammedazez/Group-1-Flix",
-  },
-  {
-    name: "Group-1-Flix",
-    description:
-      "This website has the theme of movie streaming, I with my team created this website using references from the GoFlix web, and using vanilla javascript and vanilla css, I work in the Responsive Web Design section with media queries as a point break on a certain screen width",
-    image: "url(images/project-3.png)",
-    linkPorto: "https://group-1-flix.netlify.app/",
-    linkImage: "images/project-3.png",
-    linkCode: "https://github.com/mohammedazez/Group-1-Flix",
-  },
 ];
 const LIMIT = 3;
 

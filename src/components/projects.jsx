@@ -7,6 +7,8 @@ const DATA = [
     name: "My Portfolio",
     description:
       "Website Portfolio about me and my project, i'm using React, and template from colorlib",
+    role: "Front-end",
+    techStack: "ReactJS, Bootstrap",
     image: "url(images/project-1.png)",
     linkPorto: "http://my-portfolio.ramadhanibnu.vercel.app/",
     linkImage: "images/project-1.png",
@@ -16,6 +18,8 @@ const DATA = [
     name: "Instancee",
     description:
       "This website has an educational theme, I work with my team to create this website using vanilla javascript, bootstrap, and jquery, I am in charge of the purchasing section such as shopping carts and payments, and several other functions",
+    role: "Front-end",
+    techStack: "Boostrap, JQuery, Mockup API",
     image: "url(images/project-2.png)",
     linkPorto: "https://in5tancee.netlify.app/",
     linkImage: "images/project-2.png",
@@ -25,6 +29,8 @@ const DATA = [
     name: "Group-1-Flix",
     description:
       "This website has the theme of movie streaming, I with my team created this website using references from the GoFlix web, and using vanilla javascript and vanilla css, I work in the Responsive Web Design section with media queries as a point break on a certain screen width",
+    role: "Front-end",
+    techStack: "Vanilla CSS, Vanilla JS",
     image: "url(images/project-3.png)",
     linkPorto: "https://group-1-flix.netlify.app/",
     linkImage: "images/project-3.png",
@@ -33,7 +39,9 @@ const DATA = [
   {
     name: "Reuce",
     description:
-      "In this project, my team and I created a website that brings together recycling industry and waste owners to make it easier for waste owners to dispose of their trash that can still be recycled and at the same time campaigning about the importance of waste management. And in this project I work in Back-end area but I help Front-end to, like create Add Product section and fixing some bug",
+      "In this project, My team and I created a website that brings together recycling industry and waste owners to make it easier for waste owners to dispose of their trash that can still be recycled and at the same time campaigning about the importance of waste management. And in this project I work in Back-end area creating Rest API for Front-end with Data Authorization. But I help Front-end to, like create Add Product section and fixing some bug",
+    role: "Full-stack",
+    techStack: "ReactJS, React Bootstrap, Nodejs, ExpressJS, Mongoose, MongoDB",
     image: "url(images/project-4.png)",
     linkPorto: "https://reuce-web.netlify.app/",
     linkImage: "images/project-4.png",
@@ -127,7 +135,24 @@ const Projects = () => {
                           {item.name}
                         </h3>
                       </div>
-                      <div className="modal-body">{item.description}</div>
+                      <div className="modal-body">
+                        <p>
+                          Description:
+                          <br />
+                          {item.description}
+                        </p>
+                        <p>
+                          Role:
+                          <br />
+                          {item.role}
+                        </p>
+                        {console.log("data tech stack: ", item.techStack)}
+                        <p>
+                          Tech Stack:
+                          <br />
+                          {item.techStack}
+                        </p>
+                      </div>
                       <div className="modal-footer">
                         <button
                           type="button"

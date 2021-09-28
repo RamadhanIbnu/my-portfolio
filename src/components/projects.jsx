@@ -6,7 +6,7 @@ const DATA = [
   {
     name: "My Portfolio",
     description:
-      "Website Portfolio about me and my project, i'm using React, and template from colorlib",
+      `Website Portfolio about me and my project, i'm using React, and template from <a href="https://colorlib.com/" target="_blank">colorlib</a>`,
     role: "Front-end",
     techStack: "ReactJS, Bootstrap",
     image: "url(images/project-1.png)",
@@ -46,6 +46,39 @@ const DATA = [
     linkPorto: "https://reuce-web.netlify.app/",
     linkImage: "images/project-4.png",
     linkCode: "https://github.com/Supreme-Spyro/Reuce-Front",
+  },
+  {
+    name: "Store Navee Gold",
+    description:
+      `Creating store for Naveesgold.id, using templates from <a href="https://themeforest.net/item/affan-pwa-mobile-html-template/29715548?gclid=Cj0KCQjw18WKBhCUARIsAFiW7JxNNGlIPGy-McI39KJLuYTbsKpcr6et9bCALWcSZb2na-wVnhy8wmUaArIpEALw_wcB" target="_blank">Affan - PWA mobile template</a> with vanilla Js, Bootstrap 5, and Ajax. And Has Optimized performance with lighthouse`,
+    role: "Frontend",
+    techStack: "Vanilla JS, Bootstrap 5, Ajax ",
+    image: "url(images/project-5.png)",
+    linkPorto: "https://store.naveesgold.id/",
+    linkImage: "images/project-5.png",
+    linkCode: "#",
+  },
+  {
+    name: "UI Design Otlet Mobile Apps",
+    description:
+      "Make UI Design & Prototype for PT Veripay Global Indonesia Otlet Mobile Apps, Using Figma.com",
+    role: "UI/UX Designer",
+    techStack: "Figma",
+    image: "url(images/project-6.png)",
+    linkPorto: "https://www.figma.com/proto/OvqEw7kgCawnl3xbiMfHwI/Otlet-Apps?node-id=96%3A0&starting-point-node-id=96%3A0",
+    linkImage: "images/project-6.png",
+    linkCode: "#",
+  },
+  {
+    name: "Otlet Dashboard Admin",
+    description:
+      `Creating Dashboard Admin for PT. Veripay Global Indonesia Otlet Mobile Apps, using template from <a href='https://themeforest.net/item/cuba-bootstrap-responsive-admin-dashboard-template/27530933' target="_blank">Cuba-Admin Template</a>  with ReactJs, Redux-Persist, Redux-Thunk, Boostrap 4, Leaflet, And Axios`,
+    role: "Frontend",
+    techStack: "ReactJs, Redux-Thunk, Redux-Persist, Boostrap 4, Leaflet, Axios",
+    image: "url(images/project-7.png)",
+    linkPorto: "#",
+    linkImage: "images/project-7.png",
+    linkCode: "#",
   },
 ];
 const LIMIT = 3;
@@ -139,7 +172,8 @@ const Projects = () => {
                         <p>
                           Description:
                           <br />
-                          {item.description}
+                          <div dangerouslySetInnerHTML={{ __html: item.description }}/>
+                          {/* {item.description} */}
                         </p>
                         <p>
                           Role:

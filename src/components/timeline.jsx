@@ -21,7 +21,7 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Bootcamp Impact Byte <span>2020-present</span></h2>
+                        <h2>Bootcamp Impact Byte <span>2020</span></h2>
                         <p>I got experience working on structured projects with a team at this bootcamp, this place I also added my hard skills regarding front-end and back-end web development, not only that I also learned soft skills in this place, like expressing my opinion and get used to the interview.</p>
                       </div>
                     </div>
